@@ -1,17 +1,22 @@
 {
-  "name": "simple-ui",
+  "name": "benchi-ui",
+  "author": {
+    "name": "Vitalii Verdiiev",
+    "email": "vitaliiverdiiev@gmail.com",
+    "url": "https://t.me/ukrainiancustomer"
+  },
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "dist/simple-ui-umd.cjs",
-  "module": "dist/simple-ui.js",
+  "main": "dist/benchi-ui-umd.cjs",
+  "module": "dist/benchi-ui.js",
   "exports": {
     ".": {
-      "import": "./dist/simple-ui.js",
-      "require": "./dist/simple-ui-umd.cjs"
+      "import": "./dist/benchi-ui.js",
+      "require": "./dist/benchi-ui-umd.cjs"
     }
   },
   "scripts": {
